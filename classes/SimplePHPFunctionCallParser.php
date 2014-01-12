@@ -1,8 +1,8 @@
 <?php
 
-require dirname(__FILE__).'/SimpleParser.php';
+require dirname(__FILE__).'/SimpleParserBase.php';
 
-class SimplePHPFunctionCallParser extends SimpleParser
+class SimplePHPFunctionCallParser extends SimpleParserBase
 {
 	private $function_name;
 	private $pattern;

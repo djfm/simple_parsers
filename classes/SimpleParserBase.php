@@ -1,6 +1,6 @@
 <?php
 
-abstract class SimpleParser
+abstract class SimpleParserBase
 {
 	protected $string;
 	protected $states;
