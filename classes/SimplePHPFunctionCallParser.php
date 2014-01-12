@@ -2,7 +2,7 @@
 
 require dirname(__FILE__).'/SimpleParser.php';
 
-class PHPFunctionCallParser extends SimpleParser
+class SimplePHPFunctionCallParser extends SimpleParser
 {
 	private $function_name;
 	private $pattern;
